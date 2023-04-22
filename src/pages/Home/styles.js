@@ -7,6 +7,8 @@ export const Container = styled.div`
     "header"
     "content";
 
+    height: 100vh;
+    
   > main {
     grid-area: content;
     margin: 0 auto;
@@ -15,10 +17,11 @@ export const Container = styled.div`
     border: 1px solid red;
 
     width: 100%;
+    overflow-y: auto;
 
-    div {
+    > div {
       display: flex;
-      align-items: center;
+      /* align-items: center; */
       justify-content: space-between;
 
       margin-bottom: 3.8rem;

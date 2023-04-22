@@ -2,6 +2,7 @@ import { FiPlus } from "react-icons/fi"
 
 import { Container, Button } from "./styles";
 import { Header } from "../../components/Header";
+import { Resume } from "../../components/Resume";
 
 export function Home() {
     return (
@@ -14,6 +15,10 @@ export function Home() {
                         <FiPlus />Adicionar filme
                     </Button>
                 </div>
+                
+                <Resume />
+                <Resume />
+                <Resume />
             </main>
         </Container>
     )
