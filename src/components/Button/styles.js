@@ -10,4 +10,12 @@ export const Container = styled.button`
     background-color: ${({ theme }) => theme.COLORS.PINK_100};
     color: ${({ theme }) => theme.COLORS.GRAY_300};
     font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > svg {
+        margin-right: 1.6rem;
+    }
 `;
