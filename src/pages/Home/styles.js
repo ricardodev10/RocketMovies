@@ -14,8 +14,6 @@ export const Container = styled.div`
     margin: 0 auto;
     padding: 4.8rem 11.5rem 0;
 
-    border: 1px solid red;
-
     width: 100%;
     overflow-y: auto;
 

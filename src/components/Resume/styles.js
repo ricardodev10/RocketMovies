@@ -7,7 +7,6 @@ export const Container = styled.div`
   padding: 3.2rem;
 
   width: 100%;
-  height: 22.2rem;
 
   background-color: ${({ theme }) => theme.COLORS.PINK_200};
   color: ${({ theme }) => theme.COLORS.GRAY_200};
@@ -22,6 +21,7 @@ export const Container = styled.div`
     font-size: 1.6rem;
     color: ${({ theme }) => theme.COLORS.GRAY_200};
     overflow-y: auto;
+    height: 6.4rem;
   }
 `;
 
@@ -34,4 +34,10 @@ export const Stars = styled.div`
     color: ${({ theme }) => theme.COLORS.PINK_100};
     margin-right: 0.6rem;
   }
+`;
+
+export const Tags = styled.div`
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
 `;

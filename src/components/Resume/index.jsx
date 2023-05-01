@@ -1,6 +1,8 @@
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
-import { Container, Stars } from "./styles";
+import { Container, Stars, Tags } from "./styles";
+
+import { Tag } from "../Tag";
 
 export function Resume() {
   return (
@@ -33,6 +35,12 @@ export function Resume() {
         instalação da NASA, que é na realidade uma enorme estação espacial. A
         partida de Cooper devasta Murphy.
       </p>
+
+      <Tags>
+        <Tag title="Ficção científica" />
+        <Tag title="Drama" />
+        <Tag title="Família" />
+      </Tags>
     </Container>
   );
 }
