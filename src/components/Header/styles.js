@@ -43,9 +43,12 @@ export const Profile = styled.div`
         }
     }
     
-    > img {
-        width: 6.4rem;
-        height: 6.4rem;
-        border-radius: 50%;
+    > a {
+
+        img {
+            width: 6.4rem;
+            height: 6.4rem;
+            border-radius: 50%;
+        }
     }
 `;

@@ -1,14 +1,15 @@
 import { FiArrowLeft } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 import { Container } from "./styles";
 
 export function ButtonText() {
   return (
     <Container>
-      <a href="/">
+      <Link to="/">
         <FiArrowLeft />
         Voltar
-      </a>
+      </Link>
     </Container>
   );
 }

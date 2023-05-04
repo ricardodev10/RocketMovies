@@ -23,6 +23,10 @@ export const Container = styled.div`
 
       margin-bottom: 3.8rem;
 
+      a {
+        color: ${({ theme }) => theme.COLORS.GRAY_300};
+      }
+
       h1 {
         white-space: nowrap;
       }
