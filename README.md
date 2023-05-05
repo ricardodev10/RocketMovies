@@ -1,5 +1,5 @@
 
-<h1 align="center"> Rocketmovies </h1>
+<h1 align="center"> RocketMovies </h1>
 
 
 <p align="center">
@@ -41,15 +41,25 @@ Application to track everything you watch.
 
 ## 📚 Learnings
 
-<!-- O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os? -->
+- What is ReactJS;
+- Use of Vite;
+- Structure folders and files in ReactJS;
+- Run a ReactJS project;
+- Fragment;
+- styled-components;
+- Components;
+- props;
+- Routes;
+- Navigation;
 
 
 ## ♻️ Functionalities
 
-<!-- - Temas dark e light
-- Preview em tempo real
-- Modo tela cheia
-- Responsive -->
+- Create an account
+- Login
+- Add movie
+- Remove movie
+- Search movies
 
 
 ## 📈 Improvements
